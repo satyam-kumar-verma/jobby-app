@@ -1,0 +1,32 @@
+.not-found-page-container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-img {
+  width: 25%;
+  margin-bottom: 17px;
+}
+
+.not-found-heading {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.not-found-para {
+  color: #7e858e;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .not-found-img {
+    width: 80%;
+  }
+}

@@ -1,0 +1,128 @@
+.job-overview-link-style {
+  text-decoration: none;
+}
+
+.job-over-view-container {
+  list-style-type: none;
+  width: 100%;
+  border: 0;
+  padding: 20px;
+  background-color: #272727;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.job-logo-position-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.job-logo {
+  width: 8%;
+  margin-right: 14px;
+}
+
+.job-position-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.job-position-para {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rating-star-logo {
+  color: #fbbf24;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.rating-para {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.job-location-type-salary-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.job-location-type-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.job-location-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.job-type-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.job-location-type-icon {
+  color: white;
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.job-location-type-para {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.job-salary-para {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.job-hr-line {
+  border: 1px solid #64748b;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.job-description-heading {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  align-self: flex-start;
+  margin-bottom: 13px;
+}
+
+.job-description-para {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  align-self: flex-start;
+}

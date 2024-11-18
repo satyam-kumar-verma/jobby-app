@@ -1,0 +1,30 @@
+.skills-logo-container {
+  list-style-type: none;
+  width: 28%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 35px;
+  margin-right: 25px;
+}
+
+.skills-logo {
+  width: 19%;
+  margin-right: 14px;
+}
+
+.skills-para {
+  color: white;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .skills-logo-container {
+    width: 37%;
+  }
+
+  .skills-para {
+    font-size: 15px;
+  }
+}

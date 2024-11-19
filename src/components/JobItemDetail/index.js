@@ -216,7 +216,7 @@ class JobItemDetail extends Component {
                   />
                 ))}
               </ul>
-              <p className='job-detail-life-at-company-para'>Life at Company</p>
+              <h1 className='job-detail-life-at-company-para'>Life at Company</h1>
               <div className='job-detail-life-at-company-description-image-container'>
                 <p className='job-detail-life-at-company-description-para'>
                   {description}
